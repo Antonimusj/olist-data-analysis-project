@@ -1,29 +1,34 @@
-# Análise de Fidelidade e Retenção - E-commerce (Olist Dataset)
+Análise de Fidelidade e Retenção - E-commerce (Olist Dataset)
+Este projeto tem como objetivo analisar o comportamento de compra e os índices de fidelidade de clientes em uma base de dados de e-commerce brasileiro (Olist).
 
-Este projeto tem como objetivo analisar o comportamento de compra e os índices de fidelidade de clientes em uma base de dados de e-commerce brasileiro (Olist). 
+🖥️ Visualização do Dashboard Final
+(Análise estratégica desenvolvida no Power BI Desktop)
 
-## 🚀 Status do Projeto
-Este repositório está em desenvolvimento. O projeto foi dividido em duas fases:
-* **Fase 1 (Concluída):** Extração de dados via SQL e análise exploratória (EDA) com Python.
-* **Fase 2 (Em andamento):** Construção de dashboard interativo no Power BI.
+🚀 Status do Projeto: Concluído
+O projeto foi executado em três etapas principais:
 
-## 📊 Principais Insights (Fase 1)
+Fase 1 (SQL): Extração, junção e modelagem de dados brutos.
 
-### Comportamento Geográfico e de Pagamentos
-A análise inicial revela a dominância das regiões Sudeste e Sul em faturamento total. Entretanto, identificamos uma oportunidade estratégica nas regiões Norte e Nordeste, que apresentam tickets médios superiores, sugerindo um perfil de consumo de maior valor agregado.
+Fase 2 (Python): Análise exploratória (EDA) e Feature Engineering para criação de faixas de recorrência de pedidos.
 
-![Análise de Comportamento](analise_comportamento_vendas.png)
+Fase 3 (Power BI): Construção de dashboard interativo com foco em indicadores de negócio (AOV e LTV).
 
-### Índice de Fidelidade
-A base de dados apresenta uma taxa de recorrência de **3,12%**. Este indicador é o ponto central da estratégia: converter uma fração dos clientes de compra única em clientes recorrentes pode gerar um aumento massivo de receita sem novos custos de aquisição (CAC).
+📊 Principais Insights
+Concentração de Faturamento: Grande dominância das regiões Sudeste e Sul no volume de vendas.
 
-![Índice de Fidelidade](indice_fidelidade_pizza.png)
+Comportamento de Crédito: Identificamos que clientes com maior fidelidade (recorrência) tendem a parcelar menos suas compras em comparação a novos usuários.
 
-## 🛠️ Tecnologias Utilizadas
-* **SQL (MySQL):** Extração e modelagem dos dados.
-* **Python (Pandas, Seaborn, Matplotlib):** Tratamento e visualização estatística.
-* **Jupyter Notebook:** Documentação de toda a análise.
+Índice de Fidelidade: A base apresenta uma taxa de recorrência de 3,12%, revelando uma oportunidade estratégica para campanhas de retenção e CRM.
 
----
+Oportunidade de Ticket Médio: Regiões Norte e Nordeste apresentam tickets médios superiores, apesar do menor volume absoluto de pedidos.
 
-*Este projeto foi desenvolvido como um estudo de caso para análise de indicadores de negócios.*
+🛠️ Tecnologias Utilizadas
+SQL (MySQL/SQLite): Extração e modelagem dos dados.
+
+Python (Pandas, Seaborn, Matplotlib): Tratamento, limpeza e visualização estatística de tendências.
+
+Power BI: Storytelling de dados e criação de dashboards dinâmicos.
+
+Jupyter Notebook: Documentação de todo o processo de tratamento de dados.
+
+Este projeto foi desenvolvido como um estudo de caso para análise de indicadores de negócios e Ciência de Dados.
