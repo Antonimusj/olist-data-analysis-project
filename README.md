@@ -31,4 +31,28 @@ Power BI: Storytelling de dados e criação de dashboards dinâmicos.
 
 Jupyter Notebook: Documentação de todo o processo de tratamento de dados.
 
+
 Este projeto foi desenvolvido como um estudo de caso para análise de indicadores de negócios e Ciência de Dados.
+
+
+👤 Autor
+
+José Antônio da Silva Estudante de Ciência de Dados (3º Semestre) na Faculdade Descomplica.
+
+
+
+
+
+---
+
+
+
+---
+
+### 🤝 Conecte-se comigo
+Para discussões sobre Engenharia de Dados, parcerias em projetos de Sports Analytics ou oportunidades profissionais:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-antonio-da-silva-ds)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/antonimusarch)
+
+---
