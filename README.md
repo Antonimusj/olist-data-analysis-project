@@ -22,6 +22,7 @@ Comportamento de Crédito: Identificamos que clientes com maior fidelidade (reco
 Índice de Fidelidade: A base apresenta uma taxa de recorrência de 3,12%, revelando uma oportunidade estratégica para campanhas de retenção e CRM.
 
 Oportunidade de Ticket Médio: Regiões Norte e Nordeste apresentam tickets médios superiores, apesar do menor volume absoluto de pedidos.
+![Comportamento de Vendas](analise_comportamento_vendas.png)
 
 🛠️ Tecnologias Utilizadas
 SQL (MySQL/SQLite): Extração e modelagem dos dados.
@@ -57,4 +58,5 @@ Para discussões sobre Engenharia de Dados, parcerias em projetos de Sports Anal
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/antonimusarch)
 
 ---
+
 
