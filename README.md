@@ -3,6 +3,7 @@ Este projeto tem como objetivo analisar o comportamento de compra e os índices 
 
 🖥️ Visualização do Dashboard Final
 (Análise estratégica desenvolvida no Power BI Desktop)
+![Dashboard Final de Rendimento](dashboard_final.jpg)
 
 🚀 Status do Projeto: Concluído
 O projeto foi executado em três etapas principais:
@@ -56,3 +57,4 @@ Para discussões sobre Engenharia de Dados, parcerias em projetos de Sports Anal
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/antonimusarch)
 
 ---
+
