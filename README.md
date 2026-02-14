@@ -1,41 +1,100 @@
-Análise de Fidelidade e Retenção - E-commerce (Olist Dataset)
-Este projeto tem como objetivo analisar o comportamento de compra e os índices de fidelidade de clientes em uma base de dados de e-commerce brasileiro (Olist).
+🗄️ Construção de Base Analítica e Pipeline de Dados – E-commerce (Olist Dataset)
 
+Este projeto tem como foco a construção de uma base analítica estruturada a partir de dados transacionais do e-commerce brasileiro Olist.
+
+O objetivo principal foi desenvolver um fluxo completo de extração, transformação e modelagem de dados (ETL), consolidando múltiplas tabelas relacionais em uma base preparada para consumo analítico e visualização.
+
+## Estrutura do Projeto
+
+```bash
+/sql        → Scripts de modelagem e consolidação
+/notebooks  → Transformações e análises em Python
+/dashboard  → Arquivo Power BI (.pbix)
+/data       → Dados intermediários
+```
+
+🧱 Arquitetura do Projeto
+
+O pipeline foi desenvolvido em três etapas principais:
+
+🔹 Fase 1 – SQL (Modelagem e Consolidação)
+
+Extração de dados brutos
+
+JOINs entre múltiplas tabelas relacionais
+
+Tratamento de inconsistências
+
+Criação de base consolidada para análise
+
+Modelagem relacional e persistência em MySQL / SQLite.
+
+Foco: construção de dataset limpo e estruturado.
+
+🔹 Fase 2 – Python (Transformação e Feature Engineering)
+
+Manipulação de dados com Pandas
+
+Tratamento de valores ausentes
+
+Padronização de variáveis
+
+Criação de métricas derivadas a partir de agregações temporais e consolidação transacional (recorrência, AOV, LTV).
+
+Preparação da base para visualização
+
+Foco: transformação e enriquecimento da base analítica.
+
+🔹 Fase 3 – Camada Analítica (Power BI)
+
+Conexão com base estruturada
+
+Construção de dashboard interativo
+
+Organização de indicadores derivados da base transformada
 🖥️ Visualização do Dashboard Final
-(Análise estratégica desenvolvida no Power BI Desktop)
 ![Dashboard Final de Rendimento](dashboard_final.jpg)
 
-🚀 Status do Projeto: Concluído
-O projeto foi executado em três etapas principais:
+📊 Resultados Técnicos
 
-Fase 1 (SQL): Extração, junção e modelagem de dados brutos.
+A estrutura final permitiu:
 
-Fase 2 (Python): Análise exploratória (EDA) e Feature Engineering para criação de faixas de recorrência de pedidos.
+Cálculo de métricas de recorrência
 
-Fase 3 (Power BI): Construção de dashboard interativo com foco em indicadores de negócio (AOV e LTV).
+Segmentação por região
 
-📊 Principais Insights
-Concentração de Faturamento: Grande dominância das regiões Sudeste e Sul no volume de vendas.
+Análise de comportamento de parcelamento
 
-Comportamento de Crédito: Identificamos que clientes com maior fidelidade (recorrência) tendem a parcelar menos suas compras em comparação a novos usuários.
+Estruturação de indicadores como AOV e LTV
 
-Índice de Fidelidade: A base apresenta uma taxa de recorrência de 3,12%, revelando uma oportunidade estratégica para campanhas de retenção e CRM.
-
-Oportunidade de Ticket Médio: Regiões Norte e Nordeste apresentam tickets médios superiores, apesar do menor volume absoluto de pedidos.
+Exemplo de análise derivada da base estruturada:
 ![Comportamento de Vendas](analise_comportamento_vendas.png)
 
 🛠️ Tecnologias Utilizadas
-SQL (MySQL/SQLite): Extração e modelagem dos dados.
 
-Python (Pandas, Seaborn, Matplotlib): Tratamento, limpeza e visualização estatística de tendências.
+SQL (MySQL / SQLite)
+Modelagem relacional, JOINs, consolidação e estruturação de base analítica.
 
-Power BI: Storytelling de dados e criação de dashboards dinâmicos.
+Python (Pandas, Seaborn, Matplotlib)
+Processo de transformação, limpeza e feature engineering.
 
-Jupyter Notebook: Documentação de todo o processo de tratamento de dados.
+Power BI
+Camada de consumo analítico e visualização.
 
+Jupyter Notebook
+Documentação técnica do processo de transformação.
 
-Este projeto foi desenvolvido como um estudo de caso para análise de indicadores de negócios e Ciência de Dados.
+🎯 Objetivo do Projeto
 
+Este estudo foi desenvolvido como exercício prático de Engenharia de Dados aplicada, com foco em:
+
+Construção de pipeline
+
+Integração de múltiplas fontes
+
+Estruturação para consumo analítico
+
+Organização de base relacional
 
 👤 Autor
 
@@ -58,5 +117,6 @@ Para discussões sobre Engenharia de Dados, parcerias em projetos de Sports Anal
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/antonimusarch)
 
 ---
+
 
 
